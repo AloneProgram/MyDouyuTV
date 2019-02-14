@@ -75,12 +75,12 @@
 		96F10FC9221404E700D50008 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				96F10FCF221404E700D50008 /* Main */,
 				96F10FCA221404E700D50008 /* Home */,
-				96F10FCB221404E700D50008 /* Tools */,
+				96F10FCE221404E700D50008 /* Live */,
 				96F10FCC221404E700D50008 /* Follow */,
 				96F10FCD221404E700D50008 /* Profile */,
-				96F10FCE221404E700D50008 /* Live */,
-				96F10FCF221404E700D50008 /* Main */,
+				96F10FCB221404E700D50008 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,6 +123,7 @@
 		96F10FCF221404E700D50008 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				96F3EB3E21F5BA73001AD901 /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -152,7 +153,6 @@
 			children = (
 				96F10FC9221404E700D50008 /* Classes */,
 				96F3EB3A21F5BA73001AD901 /* AppDelegate.swift */,
-				96F3EB3E21F5BA73001AD901 /* Main.storyboard */,
 				96F3EB4121F5BA73001AD901 /* Assets.xcassets */,
 				96F3EB4321F5BA73001AD901 /* LaunchScreen.storyboard */,
 				96F3EB4621F5BA73001AD901 /* Info.plist */,
