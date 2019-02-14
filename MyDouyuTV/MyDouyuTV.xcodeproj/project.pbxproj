@@ -13,10 +13,6 @@
 		96F3EB4521F5BA73001AD901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F3EB4321F5BA73001AD901 /* LaunchScreen.storyboard */; };
 		96F3EB5021F5BA74001AD901 /* MyDouyuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3EB4F21F5BA74001AD901 /* MyDouyuTVTests.swift */; };
 		96F3EB5B21F5BA74001AD901 /* MyDouyuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F3EB5A21F5BA74001AD901 /* MyDouyuTVUITests.swift */; };
-		96F6DE9D221558E700D228FB /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DE9B221558E700D228FB /* Home.storyboard */; };
-		96F6DEA02215592B00D228FB /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DE9E2215592B00D228FB /* Live.storyboard */; };
-		96F6DEA22215593C00D228FB /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DEA12215593C00D228FB /* Follow.storyboard */; };
-		96F6DEA52215594900D228FB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F6DEA32215594900D228FB /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +45,6 @@
 		96F3EB5621F5BA74001AD901 /* MyDouyuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDouyuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F3EB5A21F5BA74001AD901 /* MyDouyuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDouyuTVUITests.swift; sourceTree = "<group>"; };
 		96F3EB5C21F5BA74001AD901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96F6DE9C221558E700D228FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyDouyuTV/Classes/Main/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		96F6DE9F2215592B00D228FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyDouyuTV/Classes/Main/Base.lproj/Live.storyboard; sourceTree = "<group>"; };
-		96F6DEA12215593C00D228FB /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
-		96F6DEA42215594900D228FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyDouyuTV/Classes/Main/Base.lproj/Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +88,6 @@
 		96F10FCA221404E700D50008 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				96F6DE9B221558E700D228FB /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -111,7 +102,6 @@
 		96F10FCC221404E700D50008 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				96F6DEA12215593C00D228FB /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -119,7 +109,6 @@
 		96F10FCD221404E700D50008 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				96F6DEA32215594900D228FB /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -127,7 +116,6 @@
 		96F10FCE221404E700D50008 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				96F6DE9E2215592B00D228FB /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -297,10 +285,6 @@
 				96F3EB4521F5BA73001AD901 /* LaunchScreen.storyboard in Resources */,
 				96F3EB4221F5BA73001AD901 /* Assets.xcassets in Resources */,
 				96F3EB4021F5BA73001AD901 /* Main.storyboard in Resources */,
-				96F6DEA02215592B00D228FB /* Live.storyboard in Resources */,
-				96F6DE9D221558E700D228FB /* Home.storyboard in Resources */,
-				96F6DEA52215594900D228FB /* Profile.storyboard in Resources */,
-				96F6DEA22215593C00D228FB /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,30 +359,6 @@
 				96F3EB4421F5BA73001AD901 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		96F6DE9B221558E700D228FB /* Home.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96F6DE9C221558E700D228FB /* Base */,
-			);
-			name = Home.storyboard;
-			sourceTree = "<group>";
-		};
-		96F6DE9E2215592B00D228FB /* Live.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96F6DE9F2215592B00D228FB /* Base */,
-			);
-			name = Live.storyboard;
-			sourceTree = "<group>";
-		};
-		96F6DEA32215594900D228FB /* Profile.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96F6DEA42215594900D228FB /* Base */,
-			);
-			name = Profile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
